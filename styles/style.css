@@ -1,1 +1,366 @@
+/* font area  */
+
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* global area */
+body{
+  background-color: #F5F8FF;
+}
+h4{
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 0px;
+}
+h5{
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 0px;
+}
+
+.primary-color{
+   color: #4E47FF; 
+}
+.secondery-color{
+
+}
+.action-desciption{
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  
+  
+}
+.primary-btn{
+    font-family: "Raleway", sans-serif;
+    /* padding: 12px 36px; */
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-size: 16px ;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    width: 132px;
+    
+
+}
+.secondary-btn{
+    font-family: "Raleway", sans-serif;
+    /* padding: 12px 36px; */
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-size: 16px ;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    width: 230px;
+    
+
+}
+
+
 /* header area */
+header{
+  width: auto;
+  height: 700px;
+  /* max-height: 560px; */
+  background-image: url("/Assets/Hero-bg.png");
+}
+nav{
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-logo{
+    
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+    
+}
+/* Hero section */
+.hero-text{
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  /* justify-items: center; */
+}
+body main{
+  justify-items: center;
+  margin: 158px 200px 200px 200px ;
+  text-align: center;
+}
+/* Action area content  style*/
+.action-area{
+  display: flex;
+  gap: 30px;
+  padding: 116px 200px;
+  justify-content: space-between;
+  
+}
+
+.wb-img img{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+  
+}
+.user-bg{
+  background-color: rgba(229, 231, 255, 1);
+  padding: 50px 80px;
+  margin: 150px 200px;
+  border-radius: 24px;
+  justify-items: center;
+}
+.user-counter{
+  display: flex;
+  gap: 158px;
+}
+h2{
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  
+}
+p{
+   font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+}
+.count{
+  line-height: 0px;
+}
+/* testimonial style */
+.testimonial{
+  padding: 150px, 200px;
+  margin: 100px 0px;
+  
+  
+}
+.testimonial h5{
+  text-align: center;
+
+}
+.rating{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.user-rating{
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 20px;
+  height:243px ;
+  width:367px ;
+}
+.user-title h6{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2px;
+ 
+}
+.user-title p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #252432;
+  margin-top: -20px;
+}
+.user-profile{
+  display: inline-block;
+  margin-top: -10px;
+}
+.user-profile img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.name-tags {
+  display: inline-block;
+  align-items: center;
+  padding-left: 10px;
+}
+.name-tags h5{
+  font-size: 18px;
+  color: gray;
+  line-height: 0px;
+  
+
+}
+.name-tags h6{
+  font-size: 16px;
+  color: rgb(192, 188, 188);
+  font-weight: 400;
+  margin-top: -10px;
+}
+.focus-container{
+  margin: 100px 200px;
+  background-color: #ffffff;
+  padding: 71px 150px;
+  justify-items: center;
+  text-align: center;
+}
+.foucs- h5{
+  font-size: 50px;
+  text-align: center;
+  margin: 0px 0px -10px 0px;
+}
+.focus-description{
+  font-size: 16px;
+  color: rgb(90, 90, 90);
+  padding: 20px, 0px;
+
+}
+.foucs img{
+
+  display: block;
+  border-radius: 48px;
+  padding-top: 20px;
+  
+}
+/* this is footer style */
+footer{
+  
+    padding: 130px 230px;
+    display: flex;
+    gap: 200px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+  /* margin: 150px 200px; */
+
+/* .footer-column{
+    width: 50%; */
+    /* align-items: center; */
+
+footer input[type ="text"], footer input[type="email"]{
+    height: 64px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 18px;
+
+}
+textarea{
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: none;
+
+}
+.footer-column form .secondary-btn{
+  width: 100%;
+  justify-content: center;
+}
+.footer-column h3{ 
+
+  font-size: 97px;
+  color: black;
+  align-content: center;
+
+}
+.footer-column p{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+} 
+.sub-menu ul li{
+  text-decoration: none;
+}
+
+/* this is footer nav  */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
+
+/* gg */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:500px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4f46e5; /* Indigo-600 */
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px;
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
