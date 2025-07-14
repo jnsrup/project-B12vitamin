@@ -83,7 +83,7 @@ header{
   width: auto;
   height: 700px;
   /* max-height: 560px; */
-  background-image: url("/Assets/Hero-bg.png");
+  background-image: url("/images/hero-bg.png");
 }
 nav{
     margin: 0 150px;
