@@ -82,7 +82,6 @@ h5{
 header{
   width: auto;
   height: 700px;
-  /* max-height: 560px; */
   background-image: url("/images/hero-bg.png");
 }
 nav{
