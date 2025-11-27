@@ -94,7 +94,7 @@ h5{
 header{
   width: auto;
   height: 700px;
-  background-image: url("images/hero.png");
+ background-image: url('../images/hero.png');
 }
 nav{
     margin: 0 150px;
